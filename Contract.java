@@ -12,3 +12,6 @@ public interface Contract {
     void undo();
 
 }
+
+//put a to-do comment on top of each methods
+//comment out implements keyword so you won't get red squiggly lines..
