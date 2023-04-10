@@ -18,8 +18,8 @@ public class HarryPotter implements Contract {
      * isFlying a boolean that tells if Harry is flying or not
      * inventory Hashtable that saves the item name and its availability
      * exp integer that shows Harry's exp
-     * xPosition Harry's x position
-     * yPosition Harry's y position
+     * xPosition integer for Harry's x position
+     * yPosition integer for Harry's y position
      */
     private boolean isWalking;
     private boolean isFlying;
