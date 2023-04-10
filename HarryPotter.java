@@ -2,6 +2,15 @@ import java.util.Hashtable;
 import java.util.Map;
 import java.util.Scanner;
 
+
+/**
+ * Course: CSC 120 (section 2)
+ * @author Seyeon Lim
+ * @version April 10, 2023
+ *          Description: A class that creates Harry and allows Harry to do various things including walking, flying, stop walking, stop
+ *                       flying, grabbing an item, dropping an item, examining an item, using an item, printing out inventory, growing,
+ *                       and shrinking.
+ */
 public class HarryPotter implements Contract {
 
     /**
