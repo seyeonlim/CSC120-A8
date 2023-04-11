@@ -197,8 +197,8 @@ public class HarryPotter implements Contract {
      * @return Harry's height
      */
     public Number shrink() {
-        if (height < 20) {
-            System.out.println("Harry is already less than 20 cm. Let's not make Harry disappear!");
+        if (height <= 20) {
+            System.out.println("Harry is already less than or equal to 20 cm. Let's not make Harry disappear!");
             return height;
         } else {
             height = height - 20.0;
